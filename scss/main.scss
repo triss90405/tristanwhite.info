@@ -8,36 +8,48 @@
 html,body {
 	height: 300%;
 	background-color: $black;
+	color: $gunMetal;
 }
 
 // Navigation
 nav {
 	height: 50px;
-	a {
-		color: $paper;
-		text-decoration: none;
+	.menu {
 		float: right;
-		margin: 7px 0px 0px 40px;
-		font-size: 2rem;
-		font-weight: 300;
+		height: 50px;
+		padding-top: 11px;
+		a {
+			color: $gunMetal;
+			text-decoration: none;
+			margin: 10px 0px 0px 40px;
+			text-transform: uppercase;
+			font-size: 1.6rem;
+			font-weight: 500;
+			@include transition(all 0.2s ease-in-out);
+			&:hover {
+				color: $sunflower;
+				@include transition(all 0.2s ease-in-out);
+			}
+		}
+	}
+	.logo {
+		float: left;
+		display: block;
+		margin: 5px 0 0 0;
+		text-decoration: none;
+		background: $paper;
+		height: 40px;
+		width: 40px;
+		border-radius: 50%;
+		text-align: center;
+		font-weight: 700;
+		line-height: 3.3;
+		font-size: 1.2rem;
+		color: $gunMetal;
 		@include transition(all 0.2s ease-in-out);
 		&:hover {
 			color: $sunflower;
 			@include transition(all 0.2s ease-in-out);
-		}
-		&.logo {
-			float: left;
-			display: block;
-			margin: 5px 0 0 0;	
-			background: $paper;
-			height: 40px;
-			width: 40px;
-			border-radius: 50%;
-			text-align: center;
-			font-weight: 700;
-			line-height: 3.3;
-			font-size: 1.2rem;
-			color: $sunflower;
 		}
 	}
 }
@@ -53,8 +65,8 @@ header {
 			text-align: center;
 			vertical-align: center;
 			font-weight: 300;
-			color: $lightBlack;
-			font-weight: 700;
+			color: $gunMetal;
+			font-weight: 300;
 			span {
 				color: $sunflower;
 			}
@@ -74,3 +86,80 @@ header {
 		}
 	}
 }
+
+// About section
+section#about {
+	h2 {
+		color: $sunflower;
+		font-size: 2.5rem;
+		margin-top: 100px;
+	}
+	.social {
+		a {
+			background: $paper;
+			color: $black;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			margin: 30px 15px 0 15px;
+			font-size: 3rem;
+			@include transition(all 0.2s ease-in-out);
+			&:hover {
+				background: $sunflower;
+				@include transition(all 0.2s ease-in-out);
+			}
+		}
+	}
+	p {
+		margin-top: 75px;
+		color: $gunMetal;
+		font-size: 3rem;
+		font-weight: 300;
+	}
+	.skills {
+		text-align: center;
+		margin-top: 50px;
+	}
+	.skill-label {
+		color: $gunMetal;
+		text-transform: uppercase;
+		
+	}
+	.skill-icons {
+		span {
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			display: inline-block;
+			background: $gunMetal;
+			margin: 10px 5px 20px 5px;
+			font-weight: 700;
+			@media screen and (max-width: 768px) { 
+				height: 20px;
+				width: 20px;
+				margin: 10px 3px 20px 3px;
+			}
+			&.active {
+				background: $sunflower;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

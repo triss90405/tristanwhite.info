@@ -50,7 +50,7 @@
                     <h2>About Tristan</h2>
                     <div class="social">
                         <a href="https://twitter.com/Triss90" target="_target" title="Tristans Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://github.com/" target="_target"  title="Tristans GitHub"><i class="fa fa-github-alt"></i></a>
+                        <a href="https://github.com/triss90405" target="_target"  title="Tristans GitHub"><i class="fa fa-github-alt"></i></a>
                         <a href="https://www.facebook.com/tristanoliver.mosejensenwhite" target="_target"  title="Tristans Facebook"><i class="fa fa-facebook"></i></a>
                         <a href="https://dk.linkedin.com/in/tristanoliverwhite/en" target="_target"  title="Tristans LinkedIn"><i class="fa fa-linkedin"></i></a>
                     </div>

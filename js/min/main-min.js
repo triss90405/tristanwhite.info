@@ -1,0 +1,1 @@
+window.addEventListener("resize",function(e){var t=document.getElementById("header");t.style.height=1.72*t.offsetWidth});

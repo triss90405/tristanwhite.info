@@ -1,0 +1,76 @@
+// Imports
+@import "normalize";
+@import "bourbon";
+@import "colours";
+@import "sceletus";
+
+// General
+html,body {
+	height: 300%;
+	background-color: $black;
+}
+
+// Navigation
+nav {
+	height: 50px;
+	a {
+		color: $paper;
+		text-decoration: none;
+		float: right;
+		margin: 7px 0px 0px 40px;
+		font-size: 2rem;
+		font-weight: 300;
+		@include transition(all 0.2s ease-in-out);
+		&:hover {
+			color: $sunflower;
+			@include transition(all 0.2s ease-in-out);
+		}
+		&.logo {
+			float: left;
+			display: block;
+			margin: 5px 0 0 0;	
+			background: $paper;
+			height: 40px;
+			width: 40px;
+			border-radius: 50%;
+			text-align: center;
+			font-weight: 700;
+			line-height: 3.3;
+			font-size: 1.2rem;
+			color: $sunflower;
+		}
+	}
+}
+
+// Header
+header {
+	background-color: $paper;
+	.phrase {
+		margin-top: 25%;
+		height: 100%;
+	    h1 {
+			font-size: 7rem;
+			text-align: center;
+			vertical-align: center;
+			font-weight: 300;
+			color: $lightBlack;
+			font-weight: 700;
+			span {
+				color: $sunflower;
+			}
+			@media screen and (max-width: 1200px) { 
+				font-size: 6rem
+			}
+			@media screen and (max-width: 992px) { 
+				font-size: 5rem;
+			}
+			@media screen and (max-width: 768px) { 
+				font-size: 2.5rem;
+				margin-top: 15%;
+			}
+		}
+		@media screen and (max-width: 768px) { 
+			margin-top: 15%;
+		}
+	}
+}

@@ -8,7 +8,7 @@
 					<input type="email" name="mail" placeholder="Your E-mail">
 					<input type="text" name="name" placeholder="Your Name">
 					<textarea name="msg" placeholder="Your Message"></textarea><br>
-					<input type="submit" value="Send" class="button yellow big" />
+					<input type="submit" value="Send Message"/>
 				</form>
 
 			</div>

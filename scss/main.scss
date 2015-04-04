@@ -4,11 +4,13 @@
 @import "colours";
 @import "sceletus";
 
+
 // General
 html,body {
 	background-color: $black;
 	color: $gunMetal;
 }
+
 
 // Navigation
 nav {
@@ -58,6 +60,7 @@ nav {
 	}
 }
 
+
 // Header
 header {
 	background-color: $paper;
@@ -90,6 +93,7 @@ header {
 		}
 	}
 }
+
 
 // About section
 section#about {
@@ -153,6 +157,7 @@ section#about {
 	}
 }
 
+
 // Work section
 section#work {
 	background: $paper;
@@ -194,8 +199,10 @@ section#work {
 	}
 }
 
+
 // Clients section
 section#clients {
+	padding-bottom: 70px;
 	h2 {
 		color: $sunflower;
 		font-size: 2.5rem;
@@ -212,8 +219,8 @@ section#clients {
 	}
 }
 
-// Contact section
 
+// Contact section
 section#contact {
 	background: $paper;
 	h2 {
@@ -227,22 +234,43 @@ section#contact {
 		background: $lightBlack;
 		border: 0px;
 		width: 70%;
+		font-weight: 300;
+		border-radius: 3px;
 		@media screen and (max-width: 768px) { 
 			width: 100%;
 		}
 		padding: 15px;
 		margin: 10px 0px 10px 0px;
-		border: 3px solid $paper;
+		border: 2px solid $paper;
 		font-size: 2rem;
 		&:focus {
 			outline: none;
-			border: 3px solid $sunflower;
+			border: 2px solid $sunflower;
 		}
 	}
 	input[type="submit"] {
+		border: 0 none;
+	    border-radius: 2px;
+	    color: $paper;
+	    cursor: pointer;
+	    display: inline-block;
+	    padding: 15px 20px;
+	    text-transform: none;
+		font-size: 2rem;
+		text-transform: uppercase;
+	    @include transition(all 0.2s ease-in-out);
+	    text-align: center;
+	    text-decoration: none;
+		background: none repeat scroll 0 0 $sunflower; color: $paper; 
+        &:hover,
+        &:focus { 
+        	outline: none;
+        	background: none repeat scroll 0 0 $gunMetal; color: $paper;
+        }
 		margin-bottom: 100px;
 	}
 }
+
 
 
 // Footer 
@@ -259,7 +287,9 @@ footer {
 	a {
 		color: $sunflower;
 		text-decoration: none;
-		&:hover {
+		&:hover,
+		&:focus {
+			outline: none;
 			color: $sunflower;
 			text-decoration: underline;
 		}

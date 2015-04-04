@@ -6,7 +6,6 @@
 
 // General
 html,body {
-	height: 300%;
 	background-color: $black;
 	color: $gunMetal;
 }
@@ -213,7 +212,86 @@ section#clients {
 	}
 }
 
+// Contact section
 
+section#contact {
+	background: $paper;
+	h2 {
+		color: $gunMetal;
+		font-size: 2.5rem;
+		margin-top: 100px;
+	}
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		background: $lightBlack;
+		border: 0px;
+		width: 70%;
+		@media screen and (max-width: 768px) { 
+			width: 100%;
+		}
+		padding: 15px;
+		margin: 10px 0px 10px 0px;
+		border: 3px solid $paper;
+		font-size: 2rem;
+		&:focus {
+			outline: none;
+			border: 3px solid $sunflower;
+		}
+	}
+	input[type="submit"] {
+		margin-bottom: 100px;
+	}
+}
+
+
+// Footer 
+footer {
+	height: 300px;
+	padding-top: 80px;
+	.heart {
+		height: 16px;
+		width: 16px;
+		g path {
+			fill: #E0645C;
+		}
+	}
+	a {
+		color: $sunflower;
+		text-decoration: none;
+		&:hover {
+			color: $sunflower;
+			text-decoration: underline;
+		}
+	}
+	.social {
+		a {
+			background: $paper;
+			color: $black;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			margin: 30px 15px 0 15px;
+			font-size: 3rem;
+			float: right;
+			@media screen and (max-width: 768px) { 
+				float: none;
+			}
+			text-align: center;
+			@include transition(all 0.2s ease-in-out);
+			&:hover,
+			&:focus {
+				outline: none;
+				background: $sunflower;
+				@include transition(all 0.2s ease-in-out);
+			}
+		}
+	}
+	@media screen and (max-width: 768px) { 
+		text-align: center;
+	}
+}	
 
 
 

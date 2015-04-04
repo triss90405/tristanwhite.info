@@ -9,7 +9,10 @@
                     <a href="https://www.facebook.com/tristanoliver.mosejensenwhite" target="_target"  title="Tristans Facebook"><i class="fa fa-facebook"></i></a>
                     <a href="https://dk.linkedin.com/in/tristanoliverwhite/en" target="_target"  title="Tristans LinkedIn"><i class="fa fa-linkedin"></i></a>
                 </div>
-                <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Consequuntur voluptatum neque inventore molestiae assumenda voluptate eaque laboriosam aliquam consequatur maxime hic cum repellendus, soluta saepe, modi reprehenderit expedita dolore officiis.</p>
+                <p><strong>Hi! My name is Tristan White, I'm a full-stack developer.</strong> 
+                I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. 
+                I love making beautiful, yet practical websites and applications. 
+                I would enjoy the opportunity to collaborate on your next project, so drop me an email or a tweet and lets get to work!</p>
             </div>
         </div>
 
@@ -31,7 +34,7 @@
                 </div>
             </div>
             <div class="col-m-6">
-                <div class="skill-label">Organization</div>
+                <div class="skill-label">Server, Network & Hosting</div>
                 <div class="skill-icons">
                     <span class="active"></span>
                     <span class="active"></span>
@@ -40,7 +43,7 @@
                     <span class="active"></span>
                     <span class="active"></span>
                     <span class="active"></span>
-                    <span class="active"></span>
+                    <span></span>
                     <span></span>
                     <span></span>
                 </div>

@@ -4,4 +4,6 @@
 
 <?php include('parts/work.php'); ?>
 
+<?php include('parts/clients.php'); ?>
+
 <?php include('parts/footer.php'); ?>

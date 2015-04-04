@@ -13,7 +13,8 @@ html,body {
 
 // Navigation
 nav {
-	height: 50px;
+	height: 100px;
+	background: $paper;
 	.menu {
 		float: right;
 		height: 50px;
@@ -35,9 +36,9 @@ nav {
 	.logo {
 		float: left;
 		display: block;
-		margin: 5px 0 0 0;
+		margin: 10px 0 0 0;
 		text-decoration: none;
-		background: $paper;
+		background: $gunMetal;
 		height: 40px;
 		width: 40px;
 		border-radius: 50%;
@@ -45,7 +46,7 @@ nav {
 		font-weight: 700;
 		line-height: 3.3;
 		font-size: 1.2rem;
-		color: $gunMetal;
+		color: $paper;
 		@include transition(all 0.2s ease-in-out);
 		&:hover {
 			color: $sunflower;

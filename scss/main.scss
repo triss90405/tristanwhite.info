@@ -172,12 +172,17 @@ section#work {
 			text-align: center;
 		}
 		.prj-item {
+			img {
+					-webkit-box-shadow: 0 8px 6px -6px black;
+				    -moz-box-shadow: 0 8px 6px -6px black;
+				    box-shadow: 0 8px 6px -6px black;
+				}
 			margin: 5px;
 			.prj-overlay {
 				background: fade-out($gunMetal, 0.2);
-				@include calc(width, "100% - 10px");
+				@include calc(width, "100% - 9px");
 				height: 100%;
-				@include calc(height, "100% - 10px");
+				@include calc(height, "100% - 9px");
 				position: absolute;
 				text-transform: uppercase;
 				padding-top: 30px;

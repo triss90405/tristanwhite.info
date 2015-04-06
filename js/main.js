@@ -12,6 +12,7 @@ $(document).ready(function() {
         }
     });
 
-    // Project Overlay
+    // Client slider
+    
     
 });

@@ -21,7 +21,7 @@
 			</div>
 
 			<div class="col-m-4">
-					<img src="/img/clients/kurt.png" class="sceletus-img cirlce" alt="Kurt Mikkelsen" />
+				<img src="/img/clients/kurt.png" class="sceletus-img cirlce" alt="Kurt Mikkelsen" />
 				<div class="text">
 					<p><i class="fa fa-quote-left"></i> Jeg har været særdeles tilfreds med Tristans arbejde. Han har været dygtig til at omsætte mine tanker og ideer til konkrete og enkle løsninger.
 					<br>Løsninger som jeg har været yderst tilfreds med både med hensyn til funktionalitet og layout. <i class="fa fa-quote-right"></i></p>

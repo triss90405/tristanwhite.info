@@ -236,7 +236,7 @@ section#contact {
 	input[type="text"],
 	input[type="email"],
 	textarea {
-		background: $lightBlack;
+		background: $paper;
 		border: 0px;
 		width: 70%;
 		font-weight: 300;
@@ -246,31 +246,34 @@ section#contact {
 		}
 		padding: 15px;
 		margin: 10px 0px 10px 0px;
-		border: 2px solid $paper;
+		border: 2px solid $lightBlack;
 		font-size: 2rem;
+		@include transition(all 0.2s ease-in-out);
 		&:focus {
 			outline: none;
 			border: 2px solid $sunflower;
+			@include transition(all 0.2s ease-in-out);
 		}
 	}
 	input[type="submit"] {
 		border: 0 none;
-	    border-radius: 2px;
-	    color: $paper;
+	    border-radius: 3px;
+	    border: 2px solid $lightBlack;
+	    color: $grey;
+	    background-color: $paper;
 	    cursor: pointer;
 	    display: inline-block;
 	    padding: 15px 20px;
 	    text-transform: none;
 		font-size: 2rem;
-		text-transform: uppercase;
+		font-weight: 300;
 	    @include transition(all 0.2s ease-in-out);
 	    text-align: center;
 	    text-decoration: none;
-		background: none repeat scroll 0 0 $sunflower; color: $paper; 
         &:hover,
         &:focus { 
         	outline: none;
-        	background: none repeat scroll 0 0 $gunMetal; color: $paper;
+        	border: 2px solid $sunflower;
         }
 		margin-bottom: 100px;
 	}

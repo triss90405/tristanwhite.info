@@ -64,8 +64,10 @@ nav {
 // Header
 header {
 	background-color: $paper;
+	position: relative;
+	overflow: hidden;
 	.phrase {
-		margin-top: 25%;
+		margin-top: 15%;
 		height: 100%;
 	    h1 {
 			font-size: 7rem;

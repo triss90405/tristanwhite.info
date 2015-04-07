@@ -12,7 +12,15 @@ $(document).ready(function() {
         }
     });
 
-    // Client slider
-    
+    // Header Parallax
+    $(window).scroll(function(){
+
+        var wScroll = $(this).scrollTop();
+
+        $('#tagline').css({
+            'transform' : 'translate(0px, '+ wScroll /3 +'%)'
+        });
+
+    });    
     
 });

@@ -181,14 +181,14 @@ section#work {
 				}
 			margin: 5px;
 			.prj-overlay {
-				background: fade-out($sunflower, 0.2);
+				background: fade-out($black, 0.1);
 				@include calc(width, "100% - 9px");
 				height: 100%;
 				@include calc(height, "100% - 9px");
 				position: absolute;
 				text-transform: uppercase;
 				padding-top: 30px;
-				color: $gunMetal;
+				color: $sunflower;
 				font-size: 3rem;
 				text-align: center;
 				opacity: 0;

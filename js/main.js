@@ -21,6 +21,10 @@ $(document).ready(function() {
             'transform' : 'translate(0px, '+ wScroll /3 +'%)'
         });
 
+        $('#tristan').css({
+            'transform' : 'translate(0px, '+ wScroll /30 +'%)'
+        });
+
     });    
     
 });

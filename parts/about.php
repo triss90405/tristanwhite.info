@@ -12,7 +12,8 @@
                 <p><strong>Hi! My name is Tristan White, I'm a full-stack developer.</strong> 
                 I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. 
                 I love making beautiful, yet practical websites and applications. 
-                I would enjoy the opportunity to collaborate on your next project, so drop me an email or a tweet and lets get to work!</p>
+                I would enjoy the opportunity to collaborate on your next project, so drop me an 
+                <a href="mailto:tw@d3sign.dk?Subject=Hi#20Tristan" target="_top">email</a> or a <a href="https://twitter.com/Triss90" target=_target>tweet</a> and lets get to work!</p>
             </div>
         </div>
 

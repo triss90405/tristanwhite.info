@@ -11,6 +11,18 @@ html,body {
 	color: $gunMetal;
 }
 
+a {
+	&:link,
+	&:visited {
+		color: $sunflower;
+		text-decoration: none;
+	}
+	&:hover,
+	&:active {
+		color: $paper;
+	}
+}
+
 
 // Navigation
 nav {

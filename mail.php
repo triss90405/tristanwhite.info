@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="1;index.php" />
+<meta http-equiv="refresh" content="1;index.php?msg=Your%20message%20has%20been%20sent!" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <?php
 

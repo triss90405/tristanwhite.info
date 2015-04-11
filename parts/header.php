@@ -12,6 +12,20 @@
 </head>
 <body>
     
+    <?php
+
+        if(isset($_GET['msg'])) {
+            $msg = $_GET['msg'];
+
+            echo '<input id="success" type="checkbox" hidden="hidden" name="success" tab-index="0"> 
+            <div class="sceletus-alert success">
+                <i class="fa fa-envelope-o"></i> ' . $msg . '
+                <label for="success" class="close">&#10006</label>
+            </div>';
+        }
+
+    ?>
+
     <nav>
         <div class="container">
             <div class="row">

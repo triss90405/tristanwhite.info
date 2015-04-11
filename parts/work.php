@@ -11,7 +11,7 @@
 			<a href="http://d3sign.dk" target="_target">
 			<div class="col-m-4 col-s-6">
 				<div class="prj-item">
-					<div class="prj-overlay">D3sign</div>
+					<div class="prj-overlay">D3sign<br> <br> <span class="tag">Concept</span> </div>
 					<img src="img/projects/prj1/thumb.png" class="sceletus-img" alt="d3sign">
 				</div>
 			</div>
@@ -29,7 +29,7 @@
 			<a href="http://dittesdilemma.dk" target="_target">
 			<div class="col-m-4 col-s-6">
 				<div class="prj-item">
-					<div class="prj-overlay">Dittes Dilemma</div>
+					<div class="prj-overlay">Dittes Dilemma<br> <br> <span class="tag">Concept</span> </div>
 					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="dittesdilemma">
 				</div>
 			</div>

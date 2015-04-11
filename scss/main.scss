@@ -205,6 +205,10 @@ section#work {
 				text-align: center;
 				opacity: 0;
 				@include transition(all 0.2s ease-in-out);
+				.tag {
+					color: $gunMetal;
+					font-size: 1.7rem;
+				}
 				@media screen and (max-width: 768px) { 
 					height: 100%;
 				}

@@ -3,7 +3,7 @@
 <head>
     <title>Tristan White</title>
     <meta charset="utf-8">
-    <meta name="description" content="Tristan Whites Portfolio">
+    <meta name="description" content="My name is Tristan White and i make the web">
     <meta name="author" content="Tristan White">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Cache-control" content="private">

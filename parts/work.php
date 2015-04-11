@@ -44,7 +44,26 @@
 			</div>
 			</a>
 
+			<a href="http://rundhoejskolen.skoleporten.dk/sp" target="_target">
+			<div class="col-m-4 col-s-6">
+				<div class="prj-item">
+					<div class="prj-overlay">Rundhøjskolen</div>
+					<img src="img/projects/prj5/thumb.png" class="sceletus-img" alt="Rundhøjskolen">
+				</div>
+			</div>
+			</a>
+
+			<a href="http://hoejen-skole.skoleporten.dk/sp" target="_target">
+			<div class="col-m-4 col-s-6">
+				<div class="prj-item">
+					<div class="prj-overlay">Højen Skole</div>
+					<img src="img/projects/prj6/thumb.png" class="sceletus-img" alt="Højen Skolen">
+				</div>
+			</div>
+			</a>
+
 		</div>
 
 	</div>
 </section>
+

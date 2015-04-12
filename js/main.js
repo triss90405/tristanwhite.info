@@ -25,6 +25,23 @@ $(document).ready(function() {
             'transform' : 'translate(0px, '+ wScroll /30 +'%)'
         });
 
-    });    
+    });
+
+    /*Ajax send mail
+    $('#send').click(function() {
+        var data = {
+            name: $("#name").val(),
+            email: $("#mail").val(),
+            message: $("#msg").val()
+        };
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: data,
+            success: function(){
+                $('.success').fadeIn(1000);
+            }
+        });
+    });*/
     
 });

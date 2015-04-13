@@ -33,10 +33,10 @@ $(document).ready(function() {
                 data: $('form').serialize(),
                 success: function () {
                     //alert('form was submitted');
-                    $('.notify').append("Thank you for contacting me!").addClass("show");
+                    $('.notify').html("Thank you for contacting me!").addClass("show");
                     setTimeout(function(){
                         $('.notify').removeClass("show");
-                    }, 3500);
+                    }, 6000);
                 }
             });
         });

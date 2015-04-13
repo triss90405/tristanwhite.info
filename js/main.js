@@ -14,34 +14,32 @@ $(document).ready(function() {
 
     // Header Parallax
     $(window).scroll(function(){
-
         var wScroll = $(this).scrollTop();
-
         $('#tagline').css({
             'transform' : 'translate(0px, '+ wScroll /3 +'%)'
         });
-
         $('#tristan').css({
             'transform' : 'translate(0px, '+ wScroll /30 +'%)'
         });
-
     });
 
-    /*Ajax send mail
-    $('#send').click(function() {
-        var data = {
-            name: $("#name").val(),
-            email: $("#mail").val(),
-            message: $("#msg").val()
-        };
-        $.ajax({
-            type: "POST",
-            url: "mail.php",
-            data: data,
-            success: function(){
-                $('.success').fadeIn(1000);
-            }
+    // Ajax send mail
+    $(function () {
+        $('#contactForm').on('submit', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: 'mail.php',
+                data: $('form').serialize(),
+                success: function () {
+                    //alert('form was submitted');
+                    $('.notify').append("Thank you for contacting me!").addClass("show");
+                    setTimeout(function(){
+                        $('.notify').removeClass("show");
+                    }, 3500);
+                }
+            });
         });
-    });*/
-    
+    });
+
 });

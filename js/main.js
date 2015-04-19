@@ -46,6 +46,8 @@ $(document).ready(function () {
     $('.menu-btn').click(function () {
         $('.menu').toggleClass('show-menu');
     });
-    $('');
+    $('.menu ul li a').click(function () {
+        $('.menu').removeClass('show-menu');
+    });
 
 });

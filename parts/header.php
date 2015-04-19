@@ -21,16 +21,23 @@
                     <a href="index.php" class="logo">&lt; / &gt;</a>
                 </div>
                 <div class="col-xs-11">
+                
                     <div class="menu">
-                        <a href="#about">About Me</a>
-                        <a href="#work">Work</a>
-                        <a href="#clients">Clients</a>
-                        <a href="#contact">Contact</a>
+                        <ul class="main-nav">
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
                     </div>
+                    <span class="menu-btn">
+                        <img src="img/menu.svg">
+                    </span>
+
                 </div>
             </div>
-        </div>       
-    </nav>
+        </div>  
+    </nav>     
 
     <header>
         <div class="container">

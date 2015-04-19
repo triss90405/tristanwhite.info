@@ -44,26 +44,65 @@ a {
 
 
 // Navigation
+.menu-btn {
+    display: none;
+    float:right;
+    cursor: pointer;
+    padding: 15px;
+    img {
+    	height: 30px;
+    }  
+	@media (max-width: 767px) {
+		display: block;
+	}
+}
+.show-menu {
+	display: block !important;
+}
+
 nav {
 	height: 100px;
 	background: $paper;
+	color: $gunMetal;
 	.menu {
 		float: right;
-		height: 50px;
-		padding-top: 11px;
-		a {
-			color: $gunMetal;
-			text-decoration: none;
-			margin: 10px 0px 0px 40px;
-			text-transform: uppercase;
-			font-size: 1.6rem;
-			font-weight: 500;
-			@include transition(all 0.2s ease-in-out);
-			&:hover,
-			&:focus {
-				outline: none;
-				color: $sunflower;
-				@include transition(all 0.2s ease-in-out);
+		@media (max-width: 767px) {
+	    	display: none;
+	        width: 100%;
+	        background: $paper;
+	        position: fixed;
+			top: 60px;
+			left: 0px;
+			height: 100%;
+			z-index: 999;
+			text-align: center;
+	    }
+		ul {
+			height: 50px;
+			padding-top: 11px;
+			li {
+				display:inline;
+				a {
+					color: $gunMetal;
+					text-decoration: none;
+					margin: 10px 0px 0px 40px;
+					text-transform: uppercase;
+					font-size: 1.6rem;
+					font-weight: 500;
+					@media (max-width: 767px) {
+						display: block;
+			        	color: $gunMetal;
+			        	margin-bottom: -20px;
+			        	margin-left: -40px;
+					}
+					@include transition(all 0.2s ease-in-out);
+					&:hover,
+					&:focus {
+						outline: none;
+						color: $sunflower;
+						@include transition(all 0.2s ease-in-out);
+					}
+				}
 			}
 		}
 	}
@@ -90,6 +129,7 @@ nav {
 		}
 	}
 }
+
 
 
 // Header

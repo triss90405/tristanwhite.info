@@ -8,10 +8,28 @@
 		
 		<div class="row projects">
 
+			<a href="http://www.packshotcph.com/" target="_target">
+			<div class="col-m-4 col-xs-6">
+				<div class="prj-item">
+					<div class="prj-overlay">Packshot CPH</div>
+					<img src="img/projects/prj8/thumb.png" class="sceletus-img" alt="d3sign">
+				</div>
+			</div>
+			</a>
+
+			<a href="http://www.annettepetersen.dk/" target="_target">
+			<div class="col-m-4 col-xs-6">
+				<div class="prj-item">
+					<div class="prj-overlay">Annette Petersen</div>
+					<img src="img/projects/prj7/thumb.png" class="sceletus-img" alt="d3sign">
+				</div>
+			</div>
+			</a>
+
 			<a href="http://d3sign.dk" target="_target">
 			<div class="col-m-4 col-xs-6">
 				<div class="prj-item">
-					<div class="prj-overlay">D3sign<br> <br> <span class="tag">Concept</span> </div>
+					<div class="prj-overlay">D3sign</div>
 					<img src="img/projects/prj1/thumb.png" class="sceletus-img" alt="d3sign">
 				</div>
 			</div>

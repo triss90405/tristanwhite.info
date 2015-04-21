@@ -21,7 +21,6 @@
                     <a href="index.php" class="logo">&lt; / &gt;</a>
                 </div>
                 <div class="col-xs-11">
-                
                     <div class="menu">
                         <ul class="main-nav">
                             <li><a href="#about">About Me</a></li>
@@ -33,7 +32,6 @@
                     <span class="menu-btn">
                         <img src="img/menu.svg">
                     </span>
-
                 </div>
             </div>
         </div>  

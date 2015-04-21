@@ -46,7 +46,7 @@
                     <h1 id="tagline"><span>Do</span> or do not <span>There is no try</span></h1>
                 </div>
                 <div class="col-xs-6">
-                    <img src="/img/tw_b-w.png" id="tristan" class="sceletus-img" alt="Tristan White">
+                    <img src="/img/tw_b-w.jpg" id="tristan" class="sceletus-img" alt="Tristan White">
                 </div>
             </div>
         </div>

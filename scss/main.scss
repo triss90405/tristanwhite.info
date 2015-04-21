@@ -247,10 +247,14 @@ section#work {
 		}
 		.prj-item {
 			img {
-					-webkit-box-shadow: 0 8px 6px -6px black;
-				    -moz-box-shadow: 0 8px 6px -6px black;
-				    box-shadow: 0 8px 6px -6px black;
-				}
+				-webkit-box-shadow: 0 8px 6px -6px black;
+			    -moz-box-shadow: 0 8px 6px -6px black;
+			    box-shadow: 0 8px 6px -6px black;
+			}
+			@media screen and (max-width: 768px) {
+				margin: 25px auto 0 auto;
+				max-width: 400px;
+			}
 			margin: 5px;
 			.prj-overlay {
 				background: fade-out($black, 0.1);
@@ -270,8 +274,9 @@ section#work {
 					font-size: 1.7rem;
 				}
 				@media screen and (max-width: 768px) { 
-					height: 100%;
+					height: calc(100% - 25px);
 					font-size: 1.8rem;
+					max-width: 400px;				
 				}
 			}
 			&:hover > .prj-overlay,

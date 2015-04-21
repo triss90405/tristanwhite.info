@@ -9,7 +9,7 @@
 		<div class="row projects">
 
 			<a href="http://www.packshotcph.com/" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Packshot CPH</div>
 					<img src="img/projects/prj8/thumb.png" class="sceletus-img" alt="d3sign">
@@ -18,7 +18,7 @@
 			</a>
 
 			<a href="http://www.annettepetersen.dk/" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Annette Petersen</div>
 					<img src="img/projects/prj7/thumb.png" class="sceletus-img" alt="d3sign">
@@ -27,7 +27,7 @@
 			</a>
 
 			<a href="http://d3sign.dk" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">D3sign</div>
 					<img src="img/projects/prj1/thumb.png" class="sceletus-img" alt="d3sign">
@@ -36,7 +36,7 @@
 			</a>
 			
 			<a href="http://sceletus.net" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Sceletus</div>
 					<img src="img/projects/prj2/thumb.png" class="sceletus-img" alt="sceletus">
@@ -45,7 +45,7 @@
 			</a>
 			
 			<a href="http://dittesdilemma.dk" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Dittes Dilemma<br> <br> <span class="tag">Concept</span> </div>
 					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="dittesdilemma">
@@ -54,7 +54,7 @@
 			</a>
 
 			<a href="http://web-assets.net" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Web Assets</div>
 					<img src="img/projects/prj4/thumb.png" class="sceletus-img" alt="web-assets">
@@ -63,7 +63,7 @@
 			</a>
 
 			<a href="http://rundhoejskolen.skoleporten.dk/sp" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Rundhøjskolen</div>
 					<img src="img/projects/prj5/thumb.png" class="sceletus-img" alt="Rundhøjskolen">
@@ -72,7 +72,7 @@
 			</a>
 
 			<a href="http://hoejen-skole.skoleporten.dk/sp" target="_target">
-			<div class="col-m-4 col-xs-6">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Højen Skole</div>
 					<img src="img/projects/prj6/thumb.png" class="sceletus-img" alt="Højen Skolen">

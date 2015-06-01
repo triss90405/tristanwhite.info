@@ -321,6 +321,7 @@ section#clients {
 // Contact section
 section#contact {
 	background: $paper;
+	position: relative;
 	h2 {
 		color: $gunMetal;
 		font-size: 2.5rem;
@@ -363,12 +364,44 @@ section#contact {
 	    @include transition(all 0.2s ease-in-out);
 	    text-align: center;
 	    text-decoration: none;
+	    margin-bottom: 100px;
         &:hover,
         &:focus { 
         	outline: none;
         	border: 2px solid $sunflower;
         }
-		margin-bottom: 100px;
+	}
+	.mail-wrapper {
+		position: relative;
+		ul.autosuffix {
+			display: inline-block;
+			position: absolute;
+			top: 70px;
+			left: 15%;
+			right: 15%;
+			width: 70%;
+			@media screen and (max-width: 768px) { 
+				width: 100%;
+				left: 0;
+				right: 0;
+			}
+			background: $lightBlack;
+			border-radius: 3px;
+			text-align: left;
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+			li {
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				color: $sunflower;
+				padding: 0 15px;
+				&:hover {
+					background: $gunMetal;
+				}
+			}
+		}
 	}
 }
 

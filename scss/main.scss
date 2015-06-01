@@ -3,10 +3,11 @@
 @import "bourbon";
 @import "colours";
 @import "sceletus";
-
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100italic,700,100);
 
 // General
 html,body {
+	font-family: 'Roboto', sans-serif;
 	background-color: $black;
 	color: $gunMetal;
 }
@@ -143,11 +144,12 @@ header {
 		height: 100%;
 	    h1 {
 			font-size: 7rem;
+			font-style: italic;
 			text-align: center;
 			vertical-align: center;
 			font-weight: 300;
 			color: $gunMetal;
-			font-weight: 300;
+			font-weight: 100;
 			span {
 				color: $sunflower;
 			}

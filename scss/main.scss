@@ -108,9 +108,24 @@ nav {
 		}
 	}
 	.logo {
-		img {
-			width: 70px;
+		svg {
+			width: 50px;
 			margin: 20px 20px;
+			path {
+				fill: $gunMetal;
+				@include transition(all 0.2s ease-in-out);
+				&:nth-child(3) {
+					fill: $clouds;
+				}
+			}
+			&:hover {
+				path{
+					fill: $sunflower;
+					&:nth-child(3) {
+						fill: $clouds;
+					}
+				}
+			}
 		}
 		@include transition(all 0.2s ease-in-out);
 		&:hover,

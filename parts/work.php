@@ -2,11 +2,20 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-m-12 center-text">
-				<h2>My work</h2>
+				<h2>Recent work</h2>
 			</div>
 		</div>
 		
 		<div class="row projects">
+			
+			<a href="http://dittesdilemma.dk" target="_target">
+			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
+				<div class="prj-item">
+					<div class="prj-overlay">Holme-Rundhøjfestuge</div>
+					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="dittesdilemma">
+				</div>
+			</div>
+			</a>
 
 			<a href="http://www.packshotcph.com/" target="_target">
 			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
@@ -25,30 +34,12 @@
 				</div>
 			</div>
 			</a>
-
-			<a href="http://d3sign.dk" target="_target">
-			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
-				<div class="prj-item">
-					<div class="prj-overlay">D3sign</div>
-					<img src="img/projects/prj1/thumb.png" class="sceletus-img" alt="d3sign">
-				</div>
-			</div>
-			</a>
 			
 			<a href="http://sceletus.net" target="_target">
 			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Sceletus</div>
 					<img src="img/projects/prj2/thumb.png" class="sceletus-img" alt="sceletus">
-				</div>
-			</div>
-			</a>
-			
-			<a href="http://dittesdilemma.dk" target="_target">
-			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
-				<div class="prj-item">
-					<div class="prj-overlay">Dittes Dilemma<br> <br> <span class="tag">Concept</span> </div>
-					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="dittesdilemma">
 				</div>
 			</div>
 			</a>

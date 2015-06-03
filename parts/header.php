@@ -18,7 +18,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-1">
-                    <a href="index.php" class="logo">&lt; / &gt;</a>
+                    <a href="index.php" class="logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
                 </div>
                 <div class="col-xs-11">
                     <div class="menu">

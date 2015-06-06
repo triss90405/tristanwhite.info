@@ -109,8 +109,9 @@ nav {
 	}
 	.logo {
 		svg {
-			width: 50px;
-			margin: 20px 20px;
+			width: 90px;
+			height: 90px;
+			padding: 20px 20px;
 			path {
 				fill: $gunMetal;
 				@include transition(all 0.2s ease-in-out);
@@ -123,6 +124,10 @@ nav {
 					fill: $sunflower;
 					&:nth-child(3) {
 						fill: $clouds;
+					}
+					&:nth-child(1) {
+						transform: rotate(-20deg);
+						transform-origin: 0 35%;
 					}
 				}
 			}

@@ -122,12 +122,12 @@ nav {
 			&:hover {
 				path{
 					fill: $sunflower;
-					&:nth-child(3) {
-						fill: $clouds;
-					}
 					&:nth-child(1) {
 						transform: rotate(-20deg);
 						transform-origin: 0 35%;
+					}
+					&:nth-child(3) {
+						fill: $clouds;
 					}
 				}
 			}

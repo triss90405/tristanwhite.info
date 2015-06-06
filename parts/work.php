@@ -8,11 +8,11 @@
 		
 		<div class="row projects">
 			
-			<a href="http://dittesdilemma.dk" target="_target">
+			<a href="http://xn--holmerundhjfestuge-p4b.dk/" target="_target">
 			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Holme-Rundhøjfestuge</div>
-					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="dittesdilemma">
+					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="Holmerundhøjfestuge">
 				</div>
 			</div>
 			</a>
@@ -21,7 +21,7 @@
 			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Packshot CPH</div>
-					<img src="img/projects/prj8/thumb.png" class="sceletus-img" alt="d3sign">
+					<img src="img/projects/prj8/thumb.png" class="sceletus-img" alt="PackshotCPH">
 				</div>
 			</div>
 			</a>
@@ -30,7 +30,7 @@
 			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Annette Petersen</div>
-					<img src="img/projects/prj7/thumb.png" class="sceletus-img" alt="d3sign">
+					<img src="img/projects/prj7/thumb.png" class="sceletus-img" alt="Annette_Petersen">
 				</div>
 			</div>
 			</a>
@@ -66,7 +66,7 @@
 			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
 					<div class="prj-overlay">Højen Skole</div>
-					<img src="img/projects/prj6/thumb.png" class="sceletus-img" alt="Højen Skolen">
+					<img src="img/projects/prj6/thumb.png" class="sceletus-img" alt="Højen_Skolen">
 				</div>
 			</div>
 			</a>

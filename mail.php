@@ -3,7 +3,7 @@ $mail = addslashes($_POST[mail]);
 $name = addslashes($_POST[name]);
 $message = addslashes($_POST[msg]);
 
-$recipient = "tw@d3sign.dk";
+$recipient = "oliver.tristan@gmail.com";
 $subject = "Message from tristanwhite.info - " . $name;
 $msg = "<strong>From: </strong>" . $name;
 $msg .= "<hr>";

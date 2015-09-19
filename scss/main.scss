@@ -52,7 +52,7 @@ a {
     padding: 15px;
     img {
     	height: 30px;
-    }  
+    }
 	@media (max-width: 767px) {
 		display: block;
 	}
@@ -112,32 +112,13 @@ nav {
 			width: 90px;
 			height: 90px;
 			padding: 20px 20px;
-			path {
+			g text {
 				fill: $gunMetal;
-				@include transition(all 0.2s ease-in-out);
-				&:nth-child(3) {
-					fill: $clouds;
-				}
-			}
-			&:hover {
-				path{
+				@include transition(all 0.1s ease-in-out);
+				&:hover {
 					fill: $sunflower;
-					&:nth-child(1) {
-						transform: rotate(-20deg);
-						transform-origin: 0 37%;
-					}
-					&:nth-child(3) {
-						fill: $clouds;
-					}
 				}
 			}
-		}
-		@include transition(all 0.2s ease-in-out);
-		&:hover,
-		&:focus {
-			outline: none;
-			color: $sunflower;
-			@include transition(all 0.2s ease-in-out);
 		}
 	}
 }
@@ -164,25 +145,25 @@ header {
 			span {
 				color: $sunflower;
 			}
-			@media screen and (max-width: 1200px) { 
+			@media screen and (max-width: 1200px) {
 				font-size: 6rem
 			}
-			@media screen and (max-width: 992px) { 
+			@media screen and (max-width: 992px) {
 				font-size: 5rem;
 			}
-			@media screen and (max-width: 768px) { 
+			@media screen and (max-width: 768px) {
 				font-size: 2.5rem;
 				margin-top: 15%;
 			}
 		}
-		@media screen and (max-width: 768px) { 
+		@media screen and (max-width: 768px) {
 			margin-top: 15%;
 		}
 	}
 	img {
 		margin-top: 100px;
 		float:right;
-		@media screen and (max-width: 768px) { 
+		@media screen and (max-width: 768px) {
 			margin-top: 0px;
 		}
 	}
@@ -228,7 +209,7 @@ section#about {
 	.skill-label {
 		color: $gunMetal;
 		text-transform: uppercase;
-		
+
 	}
 	.skill-icons {
 		span {
@@ -239,7 +220,7 @@ section#about {
 			background: $gunMetal;
 			margin: 10px 5px 20px 5px;
 			font-weight: 700;
-			@media screen and (max-width: 768px) { 
+			@media screen and (max-width: 768px) {
 				height: 20px;
 				width: 20px;
 				margin: 10px 3px 20px 3px;
@@ -262,7 +243,7 @@ section#work {
 	}
 	.projects {
 		margin: 30px 0 70px 0;
-		@media screen and (max-width: 768px) { 
+		@media screen and (max-width: 768px) {
 			text-align: center;
 		}
 		.prj-item {
@@ -293,10 +274,10 @@ section#work {
 					color: $gunMetal;
 					font-size: 1.7rem;
 				}
-				@media screen and (max-width: 768px) { 
+				@media screen and (max-width: 768px) {
 					height: calc(100% - 25px);
 					font-size: 1.8rem;
-					max-width: 400px;				
+					max-width: 400px;
 				}
 			}
 			&:hover > .prj-overlay,
@@ -346,7 +327,7 @@ section#contact {
 		width: 70%;
 		font-weight: 300;
 		border-radius: 3px;
-		@media screen and (max-width: 768px) { 
+		@media screen and (max-width: 768px) {
 			width: 100%;
 		}
 		padding: 15px;
@@ -377,7 +358,7 @@ section#contact {
 	    text-decoration: none;
 	    margin-bottom: 100px;
         &:hover,
-        &:focus { 
+        &:focus {
         	outline: none;
         	border: 2px solid $sunflower;
         }
@@ -391,7 +372,7 @@ section#contact {
 			left: 15%;
 			right: 15%;
 			width: 70%;
-			@media screen and (max-width: 768px) { 
+			@media screen and (max-width: 768px) {
 				width: 100%;
 				left: 0;
 				right: 0;
@@ -418,7 +399,7 @@ section#contact {
 
 
 
-// Footer 
+// Footer
 footer {
 	height: 300px;
 	padding-top: 80px;
@@ -450,7 +431,7 @@ footer {
 			margin: 30px 15px 0 15px;
 			font-size: 3rem;
 			float: right;
-			@media screen and (max-width: 768px) { 
+			@media screen and (max-width: 768px) {
 				float: none;
 			}
 			text-align: center;
@@ -463,20 +444,7 @@ footer {
 			}
 		}
 	}
-	@media screen and (max-width: 768px) { 
+	@media screen and (max-width: 768px) {
 		text-align: center;
 	}
-}	
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

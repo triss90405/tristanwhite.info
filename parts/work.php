@@ -9,37 +9,45 @@
 		<div class="row projects">
 
 			<a href="http://www.annettepetersen.dk/" target="_target">
-			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
+			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
-					<div class="prj-overlay">Annette Petersen</div>
-					<img src="img/projects/prj1/thumb.png" class="sceletus-img" alt="Annette_Petersen">
+					<div class="prj-item-inner">
+						<div class="prj-overlay">Annette Petersen</div>
+						<img src="img/projects/prj1/thumb.png" class="sceletus-img" alt="Annette_Petersen">
+					</div>
 				</div>
 			</div>
 			</a>
 
 			<a href="http://xn--holmerundhjfestuge-p4b.dk/" target="_target">
-			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
+			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
-					<div class="prj-overlay">Holme-Rundhøjfestuge</div>
-					<img src="img/projects/prj2/thumb.png" class="sceletus-img" alt="Holmerundhøjfestuge">
+					<div class="prj-item-inner">
+						<div class="prj-overlay">Holme-Rundhøjfestuge</div>
+						<img src="img/projects/prj2/thumb.png" class="sceletus-img" alt="Holmerundhøjfestuge">
+					</div>
 				</div>
 			</div>
 			</a>
 
 			<a href="http://sceletus.net" target="_target">
-			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
+			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
-					<div class="prj-overlay">Sceletus</div>
-					<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="sceletus">
+					<div class="prj-item-inner">
+						<div class="prj-overlay">Sceletus</div>
+						<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="sceletus">
+					</div>
 				</div>
 			</div>
 			</a>
 
 			<a href="http://ryghseter.dk" target="_target">
-			<div class="col-l-3 col-m-4 col-s-6 col-xs-12">
+			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
-					<div class="prj-overlay">Ryghseter</div>
-					<img src="img/projects/prj4/thumb.png" class="sceletus-img" alt="web-assets">
+					<div class="prj-item-inner">
+						<div class="prj-overlay">Ryghseter</div>
+						<img src="img/projects/prj4/thumb.png" class="sceletus-img" alt="web-assets">
+					</div>
 				</div>
 			</div>
 			</a>

@@ -24,25 +24,6 @@ a {
 	}
 }
 
-.notify {
-	opacity: 0;
-	background: $green;
-	color: $paper;
-	padding: 20px;
-	line-height: 1;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	z-index: 100;
-	border-radius: 3px;
-	@include transition(all 1s ease-in-out);
-}
-.show {
-	opacity: 1;
-	@include transition(all 1s ease-in-out);
-}
-
-
 
 // Navigation
 .menu-btn {

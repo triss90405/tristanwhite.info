@@ -1160,27 +1160,6 @@ a:link, a:visited {
 a:hover, a:active {
   color: #efefef; }
 
-.notify {
-  opacity: 0;
-  background: #46B98A;
-  color: #efefef;
-  padding: 20px;
-  line-height: 1;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 100;
-  border-radius: 3px;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out; }
-
-.show {
-  opacity: 1;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out; }
-
 .menu-btn {
   display: none;
   float: right;

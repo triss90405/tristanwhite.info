@@ -1317,53 +1317,7 @@ section#about .skill-icons span {
     background: #f1c40f; }
 
 section#work {
-  background: #efefef;
-  /*.projects {
-  	margin: 30px 0 70px 0;
-  	@media screen and (max-width: 768px) {
-  		text-align: center;
-  	}
-  	.prj-item {
-  		img {
-  			-webkit-box-shadow: 0 8px 6px -6px black;
-  		    -moz-box-shadow: 0 8px 6px -6px black;
-  		    box-shadow: 0 8px 6px -6px black;
-  		}
-  		@media screen and (max-width: 768px) {
-  			margin: 25px auto 0 auto;
-  			max-width: 400px;
-  		}
-  		margin: 5px;
-  		.prj-overlay {
-  			background: fade-out($black, 0.1);
-  			@include calc(width, "100% - 9px");
-  			height: 100%;
-  			@include calc(height, "100% - 9px");
-  			position: absolute;
-  			text-transform: uppercase;
-  			padding-top: 30px;
-  			color: $sunflower;
-  			font-size: 2rem;
-  			text-align: center;
-  			opacity: 0;
-  			@include transition(all 0.2s ease-in-out);
-  			.tag {
-  				color: $gunMetal;
-  				font-size: 1.7rem;
-  			}
-  			@media screen and (max-width: 768px) {
-  				height: calc(100% - 25px);
-  				font-size: 1.8rem;
-  				max-width: 400px;
-  			}
-  		}
-  		&:hover > .prj-overlay,
-  		&:focus > .prj.overlay{
-  			opacity: 1;
-  			@include transition(all 0.2s ease-in-out);
-  		}
-  	}
-  }*/ }
+  background: #efefef; }
   section#work h2 {
     color: #607d8b;
     font-size: 2.5rem;
@@ -1424,6 +1378,9 @@ section#clients {
 a section#contact {
   background: #f1c40f;
   color: #efefef;
+  -webkit-box-shadow: inset 0px 0px 111px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 111px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 111px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   transition: all 0.15s ease-in-out; }

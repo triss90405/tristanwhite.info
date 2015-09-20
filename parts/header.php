@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 phrase">
-                    <h1 id="tagline"><span>Do</span> or do not <br><span>There is no try</span></h1>
+                    <h1 id="tagline"><i class="fa fa-quote-left"></i> I'm just trying to make something great before I die</h1>
                 </div>
                 <div class="col-xs-6">
                     <img src="/img/tw_b-w.jpg" id="tristan" class="sceletus-img" alt="Tristan White">

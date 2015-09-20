@@ -292,9 +292,10 @@ section#clients {
 
 
 // Contact section
-section#contact {
+a section#contact {
 	background: $sunflower;
-	color: $gunMetal;
+	color: $paper;
+	@include transition(all 0.15s ease-in-out);
 	h1 {
 		font-size: 6rem;
 		line-height: 40rem;
@@ -304,6 +305,9 @@ section#contact {
 			font-size: 3rem;
 			line-height: 25rem;
 		}
+	}
+	&:hover {
+		background: lighten($sunflower, 10%);
 	}
 }
 

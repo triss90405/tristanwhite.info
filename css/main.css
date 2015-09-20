@@ -1382,18 +1382,23 @@ section#clients {
   section#clients .text {
     padding: 30px; }
 
-section#contact {
+a section#contact {
   background: #f1c40f;
-  color: #607d8b; }
-  section#contact h1 {
+  color: #efefef;
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; }
+  a section#contact h1 {
     font-size: 6rem;
     line-height: 40rem;
     margin: 0;
     padding: 0; }
     @media (max-width: 768px) {
-      section#contact h1 {
+      a section#contact h1 {
         font-size: 3rem;
         line-height: 25rem; } }
+  a section#contact:hover {
+    background: #f4d03f; }
 
 footer {
   height: 300px;

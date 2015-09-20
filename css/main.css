@@ -1243,22 +1243,8 @@ header {
       text-align: center;
       vertical-align: center;
       font-weight: 300;
-      color: #607d8b;
+      color: #f1c40f;
       font-weight: 100; }
-      header .phrase h1 span {
-        color: #f1c40f; }
-      header .phrase h1 i {
-        font-size: 3.5rem;
-        vertical-align: top; }
-        @media screen and (max-width: 1200px) {
-          header .phrase h1 i {
-            font-size: 3.5rem; } }
-        @media screen and (max-width: 992px) {
-          header .phrase h1 i {
-            font-size: 2.5rem; } }
-        @media screen and (max-width: 768px) {
-          header .phrase h1 i {
-            font-size: 1.8rem; } }
       @media screen and (max-width: 1200px) {
         header .phrase h1 {
           font-size: 6rem; } }

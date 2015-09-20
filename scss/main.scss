@@ -121,24 +121,8 @@ header {
 			text-align: center;
 			vertical-align: center;
 			font-weight: 300;
-			color: $gunMetal;
+			color: $sunflower;
 			font-weight: 100;
-			span {
-				color: $sunflower;
-			}
-			i {
-				font-size: 3.5rem;
-				vertical-align: top;
-				@media screen and (max-width: 1200px) {
-					font-size: 3.5rem
-				}
-				@media screen and (max-width: 992px) {
-					font-size: 2.5rem;
-				}
-				@media screen and (max-width: 768px) {
-					font-size: 1.8rem;
-				}
-			}
 			@media screen and (max-width: 1200px) {
 				font-size: 6rem
 			}

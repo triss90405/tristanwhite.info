@@ -12,8 +12,6 @@
 </head>
 <body>
 
-    <div id="notify" class="notify hide"></div>
-
     <nav>
         <div class="container">
             <div class="row">

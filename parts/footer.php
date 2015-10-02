@@ -2,7 +2,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-s-6">
-		            <p>Built on <a href="http://sceletus.net" target="_target">sceletus</a></p>
+		            <p>Built on <a href="http://gridder.io" target="_target">Gridder</a></p>
 		            &copy;Copyright <?php echo date("Y") ?> - <a href="https://github.com/triss90405">Tristan White</a>
     			</div>
     			<div class="col-s-6">

@@ -25,10 +25,10 @@ $(document).ready(function () {
 
     //Mobile menu
     $('.menu-btn').click(function () {
-        $('.menu').toggleClass('show-menu');
+        $('.menu').slideToggle();
     });
     $('.menu ul li a').click(function () {
-        $('.menu').removeClass('show-menu');
+        $('.menu').slideToggle(10);
     });
 
 });

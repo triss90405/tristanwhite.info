@@ -104,11 +104,12 @@ nav {
 		svg {
 			width: 60px;
 			height: 57px;
-
 			g text {
 				fill: $gunMetal;
 				@include transition(all 0.1s ease-in-out);
-				&:hover {
+			}
+			&:hover {
+				g text {
 					fill: $sunflower;
 				}
 			}

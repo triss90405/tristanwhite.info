@@ -1237,8 +1237,8 @@ nav {
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
       transition: all 0.1s ease-in-out; }
-      nav .logo svg g text:hover {
-        fill: #f1c40f; }
+    nav .logo svg:hover g text {
+      fill: #f1c40f; }
 
 header {
   background-color: #efefef;

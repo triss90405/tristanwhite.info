@@ -7,11 +7,11 @@
     			</div>
     			<div class="col-s-6">
     				<div class="social">
-	                    <a href="https://twitter.com/Triss90" target="_target" title="Tristans Twitter"><i class="fa fa-twitter"></i></a>
-	                    <a href="https://github.com/triss90405" target="_target"  title="Tristans GitHub"><i class="fa fa-github-alt"></i></a>
-	                    <a href="https://www.facebook.com/tristanoliver.mosejensenwhite" target="_target"  title="Tristans Facebook"><i class="fa fa-facebook"></i></a>
-                       <a href="http://codepen.io/triss90/" target="_target"  title="Tristans CodePen"><i class="fa fa-codepen"></i></a>
-	                </div>
+                    <a href="https://twitter.com/Triss90" target="_target" title="Tristans Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/triss90405" target="_target"  title="Tristans GitHub"><i class="fa fa-github-alt"></i></a>
+                    <a href="https://www.facebook.com/tristanoliver.mosejensenwhite" target="_target"  title="Tristans Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="http://codepen.io/triss90/" target="_target"  title="Tristans CodePen"><i class="fa fa-codepen"></i></a>
+                </div>
     			</div>
     		</div>
     	</div>

@@ -30,26 +30,26 @@ $dark-grey: #444444;
 @media (min-width: 768px) { .container { width: 750px; } }
 @media (min-width: 992px) { .container { width: 970px; } }
 @media (min-width: 1200px) { .container { width: 1170px; } }
-.col-xs-1, .col-s-1, .col-m-1, .col-l-1, 
-.col-xs-2, .col-s-2, .col-m-2, .col-l-2, 
-.col-xs-3, .col-s-3, .col-m-3, .col-l-3, 
-.col-xs-4, .col-s-4, .col-m-4, .col-l-4, 
-.col-xs-5, .col-s-5, .col-m-5, .col-l-5, 
-.col-xs-6, .col-s-6, .col-m-6, .col-l-6, 
-.col-xs-7, .col-s-7, .col-m-7, .col-l-7, 
-.col-xs-8, .col-s-8, .col-m-8, .col-l-8, 
-.col-xs-9, .col-s-9, .col-m-9, .col-l-9, 
-.col-xs-10, .col-s-10, .col-m-10, .col-l-10, 
-.col-xs-11, .col-s-11, .col-m-11, .col-l-11, 
+.col-xs-1, .col-s-1, .col-m-1, .col-l-1,
+.col-xs-2, .col-s-2, .col-m-2, .col-l-2,
+.col-xs-3, .col-s-3, .col-m-3, .col-l-3,
+.col-xs-4, .col-s-4, .col-m-4, .col-l-4,
+.col-xs-5, .col-s-5, .col-m-5, .col-l-5,
+.col-xs-6, .col-s-6, .col-m-6, .col-l-6,
+.col-xs-7, .col-s-7, .col-m-7, .col-l-7,
+.col-xs-8, .col-s-8, .col-m-8, .col-l-8,
+.col-xs-9, .col-s-9, .col-m-9, .col-l-9,
+.col-xs-10, .col-s-10, .col-m-10, .col-l-10,
+.col-xs-11, .col-s-11, .col-m-11, .col-l-11,
 .col-xs-12, .col-s-12, .col-m-12, .col-l-12 {
-    position: relative; 
-    min-height: 1px; 
+    position: relative;
+    min-height: 1px;
 }
-.col-xs-1, .col-xs-2, .col-xs-3, 
-.col-xs-4, .col-xs-5, .col-xs-6, 
-.col-xs-7, .col-xs-8, .col-xs-9, 
-.col-xs-10, .col-xs-11, .col-xs-12 { 
-    float: left; 
+.col-xs-1, .col-xs-2, .col-xs-3,
+.col-xs-4, .col-xs-5, .col-xs-6,
+.col-xs-7, .col-xs-8, .col-xs-9,
+.col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
 }
 .col-xs-12 { width: 100%; }
 .col-xs-11 { width: 91.66666667%; }
@@ -63,12 +63,12 @@ $dark-grey: #444444;
 .col-xs-3 { width: 25%; }
 .col-xs-2 { width: 16.66666667%; }
 .col-xs-1 { width: 8.33333333%; }
-@media (min-width: 768px) { 
-    .col-s-1, .col-s-2, .col-s-3, 
-    .col-s-4, .col-s-5, .col-s-6, 
-    .col-s-7, .col-s-8, .col-s-9, 
-    .col-s-10, .col-s-11, .col-s-12 { 
-        float: left; 
+@media (min-width: 768px) {
+    .col-s-1, .col-s-2, .col-s-3,
+    .col-s-4, .col-s-5, .col-s-6,
+    .col-s-7, .col-s-8, .col-s-9,
+    .col-s-10, .col-s-11, .col-s-12 {
+        float: left;
     }
     .col-s-12 { width: 100%; }
     .col-s-11 { width: 91.66666667%; }
@@ -83,12 +83,12 @@ $dark-grey: #444444;
     .col-s-2 { width: 16.66666667%; }
     .col-s-1 { width: 8.33333333%; }
 }
-@media (min-width: 992px) { 
-    .col-m-1, .col-m-2, .col-m-3, 
-    .col-m-4, .col-m-5, .col-m-6, 
-    .col-m-7, .col-m-8, .col-m-9, 
-    .col-m-10, .col-m-11, .col-m-12 { 
-        float: left; 
+@media (min-width: 992px) {
+    .col-m-1, .col-m-2, .col-m-3,
+    .col-m-4, .col-m-5, .col-m-6,
+    .col-m-7, .col-m-8, .col-m-9,
+    .col-m-10, .col-m-11, .col-m-12 {
+        float: left;
     }
     .col-m-12 { width: 100%; }
     .col-m-11 { width: 91.66666667%; }
@@ -103,12 +103,12 @@ $dark-grey: #444444;
     .col-m-2 { width: 16.66666667%; }
     .col-m-1 { width: 8.33333333%; }
 }
-@media (min-width: 1200px) { 
-    .col-l-1, .col-l-2, .col-l-3, 
-    .col-l-4, .col-l-5, .col-l-6, 
-    .col-l-7, .col-l-8, .col-l-9, 
-    .col-l-10, .col-l-11, .col-l-12 { 
-        float: left; 
+@media (min-width: 1200px) {
+    .col-l-1, .col-l-2, .col-l-3,
+    .col-l-4, .col-l-5, .col-l-6,
+    .col-l-7, .col-l-8, .col-l-9,
+    .col-l-10, .col-l-11, .col-l-12 {
+        float: left;
     }
     .col-l-12 { width: 100%; }
     .col-l-11 { width: 91.66666667%; }
@@ -171,12 +171,12 @@ code {
   white-space: nowrap;
   background: lighten($light-grey, 35%);
   border: 1px solid lighten($light-grey, 25%);
-  border-radius: 4px; 
+  border-radius: 4px;
 }
 pre > code {
   display: block;
   padding: 1rem 1.5rem;
-  white-space: pre; 
+  white-space: pre;
 }
 
 
@@ -188,9 +188,9 @@ pre > code {
     border-radius: 2px 2px 2px 2px;
     color: $white;
     display: inline-block;
-    font-size: 12px; 
-    line-height: 16px; 
-    padding: 0px 6px; 
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0px 6px;
     font-weight: 300;
     line-height: 20px;
     margin-bottom: 0;
@@ -213,18 +213,18 @@ pre > code {
 /***********************************************/
 /******************* TABLES ********************/
 /***********************************************/
-table { 
+table {
     width: 100%; border-spacing: 0px; border-collapse: separate;
-    thead tr th { 
-        text-align: left; border-bottom: 1px solid #999; padding: 5px; 
+    thead tr th {
+        text-align: left; border-bottom: 1px solid #999; padding: 5px;
     }
-    tbody tr:nth-child(even) { 
-        background: lighten($light-grey, 36.5%); 
+    tbody tr:nth-child(even) {
+        background: lighten($light-grey, 36.5%);
     }
-    tbody tr:hover { 
+    tbody tr:hover {
         background: lighten($light-grey, 35%);
     }
-    tbody tr td { 
+    tbody tr td {
         padding: 5px;
     }
 }
@@ -253,38 +253,38 @@ table {
     text-decoration: none;
     &.big { font-size: 18px; line-height: 24px; padding: 13px 17px; }
     &.small { font-size: 12px; line-height: 16px; padding: 3px 5px; }
-    &.red { 
-        background: none repeat scroll 0 0 $red; color: $white; 
+    &.red {
+        background: none repeat scroll 0 0 $red; color: $white;
         &:hover { background: none repeat scroll 0 0 $light-grey; color: $white;
         }
     }
-    &.dark { 
+    &.dark {
         background: none repeat scroll 0 0 $dark-grey; color: $white;
-        &:hover { background: none repeat scroll 0 0 $blue; color: $white; 
+        &:hover { background: none repeat scroll 0 0 $blue; color: $white;
         }
     }
-    &.light { 
+    &.light {
         background: none repeat scroll 0 0 $light-grey; color: $white;
-        &:hover { 
-            background: none repeat scroll 0 0 $dark-grey; color: $white; 
-        } 
-    }
-    &.green { 
-        background: none repeat scroll 0 0 $green; color: $white; 
-        &:hover { 
-            background: none repeat scroll 0 0 $dark-grey; color: $white; 
+        &:hover {
+            background: none repeat scroll 0 0 $dark-grey; color: $white;
         }
     }
-    &.blue { 
+    &.green {
+        background: none repeat scroll 0 0 $green; color: $white;
+        &:hover {
+            background: none repeat scroll 0 0 $dark-grey; color: $white;
+        }
+    }
+    &.blue {
         background: none repeat scroll 0 0 $blue; color: $white;
-        &:hover { 
-            background: none repeat scroll 0 0 $dark-grey; color: $white; 
+        &:hover {
+            background: none repeat scroll 0 0 $dark-grey; color: $white;
         }
     }
-    &.yellow { 
-        background: none repeat scroll 0 0 $yellow; color: darken($white, 3%); 
-        &:hover { 
-            background: none repeat scroll 0 0 $light-grey; color: $white; 
+    &.yellow {
+        background: none repeat scroll 0 0 $yellow; color: darken($white, 3%);
+        &:hover {
+            background: none repeat scroll 0 0 $light-grey; color: $white;
         }
     }
 }
@@ -293,33 +293,33 @@ table {
 /***********************************************/
 /******************** LISTS ********************/
 /***********************************************/
-ul { 
-    list-style: circle inside none; 
-    li { 
-        margin-left: 15px; line-height: 30px; font-size: inherit; 
-        ul { 
+ul {
+    list-style: circle inside none;
+    li {
+        margin-left: 15px; line-height: 30px; font-size: inherit;
+        ul {
             list-style: circle inside none; margin-bottom: 0px;
-            li { 
-                font-size: inherit;  
-            } 
+            li {
+                font-size: inherit;
+            }
         }
-        ol li { 
-            font-size: inherit;  
+        ol li {
+            font-size: inherit;
         }
     }
 }
-ol { 
-    list-style: decimal inside none; margin-bottom: 10px; 
-    li { 
-        margin-left: 15px; line-height: 30px; font-size: inherit; 
-        ol { 
-            list-style: disc inside none; margin-bottom: 0px; 
-            li { 
-                font-size: inherit; 
+ol {
+    list-style: decimal inside none; margin-bottom: 10px;
+    li {
+        margin-left: 15px; line-height: 30px; font-size: inherit;
+        ol {
+            list-style: disc inside none; margin-bottom: 0px;
+            li {
+                font-size: inherit;
             }
         }
-        ul li { 
-            font-size: inherit; 
+        ul li {
+            font-size: inherit;
         }
     }
 }
@@ -342,7 +342,7 @@ ol {
     overflow: hidden;
     transform: scale(0.5);
     transition: all 0.75s cubic-bezier(0.19, 1, 0.22, 1);
-}      
+}
 .modal_box {
     padding: 1em .75em;
     position: relative;
@@ -371,7 +371,7 @@ ol {
 input:checked#modal {
     position: absolute;
     top: -9999px;
-    left: -9999px;   
+    left: -9999px;
 }
 input:checked#modal ~ .modal_overlay {
     opacity: 1;
@@ -390,70 +390,70 @@ input:checked#modal ~ .modal_overlay {
     color: $white;
     font-size: 1.3rem;
     text-align: left;
-    a{ 
+    a{
         color: $white;
         transition: all 0.1s ease-out;
         -webkit-transition: all 0.1s ease-out;
         -o-transition: all 0.1s ease-out;
         -moz-transition: all 0.1s ease-out;
         &:hover {
-            color: $black; 
+            color: $black;
             transition: all 0.1s ease-in;
             -webkit-transition: all 0.1s ease-in;
             -o-transition: all 0.1s ease-in;
             -moz-transition: all 0.1s ease-in;
         }
     }
-    &.success{ 
+    &.success{
         background-color: $green;
         transition: all 0.1s ease-out;
         -webkit-transition: all 0.1s ease-out;
         -o-transition: all 0.1s ease-out;
         -moz-transition: all 0.1s ease-out;
         &:hover {
-            background-color: darken($green, 5%); 
+            background-color: darken($green, 5%);
             transition: all 0.1s ease-in;
             -webkit-transition: all 0.1s ease-in;
             -o-transition: all 0.1s ease-in;
             -moz-transition: all 0.1s ease-in;
         }
     }
-    &.warning{ 
+    &.warning{
         background-color: $yellow;
         transition: all 0.1s ease-out;
         -webkit-transition: all 0.1s ease-out;
         -o-transition: all 0.1s ease-out;
         -moz-transition: all 0.1s ease-out;
         &:hover {
-            background-color: darken($yellow, 5%); 
+            background-color: darken($yellow, 5%);
             transition: all 0.1s ease-in;
             -webkit-transition: all 0.1s ease-in;
             -o-transition: all 0.1s ease-in;
             -moz-transition: all 0.1s ease-in;
         }
     }
-    &.error{ 
+    &.error{
         background-color: $red;
         transition: all 0.1s ease-out;
         -webkit-transition: all 0.1s ease-out;
         -o-transition: all 0.1s ease-out;
         -moz-transition: all 0.1s ease-out;
         &:hover {
-            background-color: darken($red, 5%); 
+            background-color: darken($red, 5%);
             transition: all 0.1s ease-in;
             -webkit-transition: all 0.1s ease-in;
             -o-transition: all 0.1s ease-in;
             -moz-transition: all 0.1s ease-in;
         }
     }
-    &.message{ 
+    &.message{
         background-color: $blue;
         transition: all 0.1s ease-out;
         -webkit-transition: all 0.1s ease-out;
         -o-transition: all 0.1s ease-out;
         -moz-transition: all 0.1s ease-out;
         &:hover {
-            background-color: darken($blue, 5%); 
+            background-color: darken($blue, 5%);
             transition: all 0.1s ease-in;
             -webkit-transition: all 0.1s ease-in;
             -o-transition: all 0.1s ease-in;
@@ -466,8 +466,8 @@ input:checked#modal ~ .modal_overlay {
         color: $white;
         text-decoration: none;
         padding: 20px;
-        top: -20px; 
-        cursor: pointer; 
+        top: -20px;
+        cursor: pointer;
     }
 }
 input:checked#message ~ .sceletus-alert.message,

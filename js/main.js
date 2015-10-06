@@ -61,4 +61,12 @@ $(document).ready(function () {
    });
 
 
+   // Work item animation
+   setInterval(function() {
+      var random = Math.floor(Math.random()*4);
+      $('.prj-item').removeClass('tada').eq(random).addClass('tada');
+   }, 5000);
+
+
+
 });

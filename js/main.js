@@ -68,5 +68,13 @@ $(document).ready(function () {
    }, 5000);
 
 
+   // Client item animation
+   $(window).scroll(function() {
+      var wScroll = $(this).scrollTop();
+      if(wScroll > $('#clients').offset().top - 200) {
+         $('#clients img').addClass('fadeInUp');
+         $('#clients .text').addClass('fadeInUp');
+      }
+   });
 
 });

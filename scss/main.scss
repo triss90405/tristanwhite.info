@@ -305,6 +305,7 @@ section#work {
 // Clients section
 section#clients {
 	padding-bottom: 70px;
+	overflow: hidden;
 	h2 {
 		color: $sunflower;
 		font-size: 2.5rem;
@@ -315,9 +316,42 @@ section#clients {
 		border-radius: 50%;
 		border: 2px solid $lightBlack;
 		margin: 0 auto;
+		opacity: 0;
 	}
 	.text {
 		padding: 30px;
+		opacity: 0;
+	}
+
+	.fadeInUp {
+	    -webkit-animation-name: fadeInUp;
+	    animation-name: fadeInUp;
+		 -webkit-animation-duration: 1s;
+	    animation-duration: 1s;
+	    -webkit-animation-fill-mode: both;
+	    animation-fill-mode: both;
+	    -webkit-animation-timing-function: ease-in-out;
+	    animation-timing-function: ease-in-out;
+	}
+	@-webkit-keyframes fadeInUp {
+	    0% {
+	        opacity: 0;
+	        -webkit-transform: translateX(-2000px);
+	    }
+	    100% {
+	        opacity: 1;
+	        -webkit-transform: translateX(0);
+	    }
+	}
+	@keyframes fadeInUp {
+	    0% {
+	        opacity: 0;
+	        transform: translateX(-2000px);
+	    }
+	    100% {
+	        opacity: 1;
+	        transform: translateX(0);
+	    }
 	}
 }
 

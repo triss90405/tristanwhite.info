@@ -71,7 +71,7 @@ $(document).ready(function () {
    // Client item animation
    $(window).scroll(function() {
       var wScroll = $(this).scrollTop();
-      if(wScroll > $('#clients').offset().top - 200) {
+      if(wScroll > $('#clients').offset().top - 400) {
          $('#clients img').addClass('fadeInUp');
          $('#clients .text').addClass('fadeInUp');
       }

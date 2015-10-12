@@ -326,8 +326,8 @@ section#clients {
 	.fadeInUp {
 	    -webkit-animation-name: fadeInUp;
 	    animation-name: fadeInUp;
-		 -webkit-animation-duration: 1s;
-	    animation-duration: 1s;
+		 -webkit-animation-duration: .3s;
+	    animation-duration: .3s;
 	    -webkit-animation-fill-mode: both;
 	    animation-fill-mode: both;
 	    -webkit-animation-timing-function: ease-in-out;
@@ -336,7 +336,7 @@ section#clients {
 	@-webkit-keyframes fadeInUp {
 	    0% {
 	        opacity: 0;
-	        -webkit-transform: translateX(-2000px);
+	        -webkit-transform: translateX(-1000px);
 	    }
 	    100% {
 	        opacity: 1;
@@ -346,7 +346,7 @@ section#clients {
 	@keyframes fadeInUp {
 	    0% {
 	        opacity: 0;
-	        transform: translateX(-2000px);
+	        transform: translateX(-1000px);
 	    }
 	    100% {
 	        opacity: 1;

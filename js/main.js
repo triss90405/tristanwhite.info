@@ -55,7 +55,7 @@ $(document).ready(function () {
             var row = $(this);
             setTimeout(function() {
                row.css('background','#f1c40f');
-            }, 70*i);
+            }, 50*i);
          });
       }
    });

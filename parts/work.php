@@ -10,6 +10,17 @@
 
 			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
+					<a href="http://gridder.io" target="_target">
+						<div class="prj-item-inner">
+							<div class="prj-overlay">Gridder</div>
+							<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="Gridder IO">
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
+				<div class="prj-item">
 					<a href="http://www.annettepetersen.dk/" target="_target">
 						<div class="prj-item-inner">
 							<div class="prj-overlay">Annette Petersen</div>
@@ -32,26 +43,15 @@
 
 			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
 				<div class="prj-item">
-					<a href="http://sceletus.net" target="_target">
+					<a href="http://ryghseter.dk" target="_target">
 						<div class="prj-item-inner">
-							<div class="prj-overlay">Sceletus</div>
-							<img src="img/projects/prj3/thumb.png" class="sceletus-img" alt="sceletus">
+							<div class="prj-overlay">Ryghseter</div>
+							<img src="img/projects/prj4/thumb.png" class="sceletus-img" alt="Heidi Ryghseter">
 						</div>
 					</a>
 				</div>
 			</div>
 
-			<div class="col-l-4 col-m-4 col-s-6 col-xs-12">
-				<div class="prj-item">
-					<a href="http://ryghseter.dk" target="_target">
-						<div class="prj-item-inner">
-							<div class="prj-overlay">Ryghseter</div>
-							<img src="img/projects/prj4/thumb.png" class="sceletus-img" alt="web-assets">
-						</div>
-					</a>
-				</div>
-			</div>
-			
 		</div>
 
 	</div>

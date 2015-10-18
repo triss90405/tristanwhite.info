@@ -47,34 +47,11 @@ $(document).ready(function () {
    });
 
 
-   // Parallax skills
-   $(window).scroll(function() {
-      var wScroll = $(this).scrollTop();
-      if(wScroll > $('#about').offset().top - 2) {
-         $('.skill-icons').children('.active').each(function(i) {
-            var row = $(this);
-            setTimeout(function() {
-               row.css('background','#f1c40f');
-            }, 50*i);
-         });
-      }
-   });
-
-
    // Work item animation
    setInterval(function() {
       var random = Math.floor(Math.random()*4);
       $('.prj-item').removeClass('tada').eq(random).addClass('tada');
    }, 5000);
 
-
-   // Client item animation
-   $(window).scroll(function() {
-      var wScroll = $(this).scrollTop();
-      if(wScroll > $('#clients').offset().top - 400) {
-         $('#clients img').addClass('fadeInUp');
-         $('#clients .text').addClass('fadeInUp');
-      }
-   });
 
 });
